@@ -125,6 +125,22 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(138,153,168,.3);
 }
 
+#sign_in .btn_secondary,
+.links,
+.line {
+  width: 80%;
+}
+
+#sign_in .links a {
+  display: block;
+  color: #2ea0d6;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+
 /* Media queries */
 
 @media (min-width: 1200px) {
