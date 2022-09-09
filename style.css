@@ -12,6 +12,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
 }
 
+
+/* Wrapper */
+
 #wrapper {
   display: flex;
   flex-direction: row;
@@ -29,4 +32,46 @@ h1, h2, h3, h4, h5, h6 {
 #right {
   flex-direction: column;
   flex: 1;
+}
+
+
+/* Sign in */
+
+#sign_in {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding-bottom: 1rem;
+}
+
+#sign_in form {
+  width: 80%;
+  padding-bottom: 3rem;
+}
+
+#sign_in .logo {
+  margin-bottom: 8vh;
+}
+
+#sign_in .logo img {
+  width: 200px;
+}
+
+#sign_in label {
+  font-size: 0.9rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+#sign_in .input_text {
+  margin-bottom: 1.3rem;
+  width: 100%;
+  border-radius: 2px;
+  background: #0d0f12;
+  border: 1px solid #555;
+  color: #ccc;
+  padding: 0.5rem 1rem;
+  line-height: 1.3rem;
 }
