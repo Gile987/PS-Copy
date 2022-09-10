@@ -131,6 +131,9 @@ h1, h2, h3, h4, h5, h6 {
   width: 80%;
 }
 
+
+/* Forgot password, company/school, and hr */
+
 #sign_in .links a {
   display: block;
   color: #2ea0d6;
@@ -138,6 +141,28 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1rem;
   text-align: center;
   font-size: 0.9rem;
+}
+
+#sign_in .line {
+  margin-bottom: 1rem;
+}
+
+#sign_in .line .bar {
+  flex: auto;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: none;
+}
+
+
+/* Footer */
+
+#footer {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-size: 0.8rem;
+  max-width: 80%;
+  padding-top: 5rem;
 }
 
 
