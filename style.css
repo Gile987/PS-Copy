@@ -10,6 +10,7 @@ body {
   background: #0d0f12;
   color: #fff;
   overflow: hidden;
+  margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -60,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #sign_in .logo img {
-  width: 200px;
+  width: 140px;
 }
 
 #sign_in label {
@@ -173,6 +174,78 @@ h1, h2, h3, h4, h5, h6 {
 #footer a:hover {
   color: #0074ab;
 }
+
+
+/* Hero */
+
+#hero {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: url('bg.jpg') no-repeat center center / cover;
+  height: 100vh;
+  text-align: center;
+}
+
+#hero .hero_content {
+  padding: 5%;
+  margin-left: 50px;
+  max-width: 52%;
+}
+
+#hero .hero_text_wrapper {
+  text-align: left;
+  max-width: 480px;
+}
+
+#hero .hero_text {
+  font-size: 3rem;
+  font-weight: 700;
+  width: 100%;
+  color: #fff;
+  cursor: default;
+  margin-bottom: 5rem;
+}
+
+#hero .blurb {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  max-width: 150px;
+  cursor: default;
+}
+
+#hero .blurb:before {
+  display: block;
+  content: "";
+  width: 50px;
+  height: 23px;
+  position: absolute;
+  top: -2px;
+  left: -6px;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+}
+
+#hero .blurb:after {
+  display: block;
+  content: "";
+  width: 50px;
+  height: 23px;
+  position: absolute;
+  bottom: -2px;
+  right: -6px;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+
+#hero .btn_secondary {
+  font-size: 14px;
+  font-weight: 500;
+  background: linear-gradient(to right,#F05A28,#EC008C,#F05A28);
+  max-width: 230px;
+}
+
 
 /* Media queries */
 
