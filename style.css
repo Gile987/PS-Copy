@@ -144,6 +144,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.9rem;
 }
 
+#sign_in .links a:hover {
+  text-decoration: underline;
+  color: #0074ab;
+}
+
 #sign_in .line {
   margin-bottom: 1rem;
 }
