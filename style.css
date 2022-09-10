@@ -258,3 +258,30 @@ h1, h2, h3, h4, h5, h6 {
     flex: 6;
   }
 }
+
+@media (max-width: 768px) {
+  body {
+    overflow: auto;
+  }
+
+  #right {
+    display: none;
+  }
+
+  #left {
+    justify-content: start;
+  }
+
+  #sign_in .logo {
+    margin-top: 8vh;
+    margin-bottom: 2vh;
+  }
+
+  #sign_in .input_text {
+    margin-bottom: 0.7rem;
+  }
+
+  #footer {
+    padding-top: 4rem;
+  }
+}
